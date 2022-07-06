@@ -1,0 +1,74 @@
+{
+  "Users": [
+    {
+      "name": "a",
+      "username": "a",
+      "password": "a",
+      "confirm_password": "a",
+      "address": "aaa",
+      "gender": "male",
+      "dayOfBirth": "2022-07-04T17:00:00.000Z",
+      "id": 1
+    },
+    {
+      "name": "aaa",
+      "username": "aaa",
+      "password": "a",
+      "confirm_password": "a",
+      "address": "aaa",
+      "gender": "male",
+      "dayOfBirth": "2022-07-04T17:00:00.000Z",
+      "id": 2
+    }
+  ],
+  "Products": [
+    {
+      "id": 6,
+      "title": "Iphone",
+      "status": "Processing",
+      "description": "Phone",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "id": 7,
+      "title": "Iphone",
+      "status": "Processing",
+      "description": "Phone",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "title": "a",
+      "status": "a",
+      "description": "a",
+      "start_date": "a",
+      "end_date": "a",
+      "id": 8
+    },
+    {
+      "title": "ss",
+      "status": "ss",
+      "description": "ss",
+      "start_date": "2022-7-6 17:12:59",
+      "end_date": "ss",
+      "id": 9
+    },
+    {
+      "title": "aa",
+      "status": "aaaa",
+      "description": "aaaa",
+      "start_date": "2022-7-6 17:13:48",
+      "end_date": "aaaa",
+      "id": 10
+    },
+    {
+      "title": "aaaa",
+      "status": "aaa",
+      "description": "aaaa",
+      "start_date": "2022-7-6 17:14:24",
+      "end_date": "aaa",
+      "id": 11
+    }
+  ]
+}
