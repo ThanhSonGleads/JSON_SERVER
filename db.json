@@ -1,240 +1,559 @@
 {
-  "Users": [
-    {
-      "name": "crmreact",
-      "username": "csmanager.test",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Female",
-      "dayOfBirth": null,
-      "id": 1
-    },
-    {
-      "name": "crmreact",
-      "username": "abc",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Male",
-      "dayOfBirth": null,
-      "id": 2
-    },
-    {
-      "name": "a",
-      "username": "a",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Female",
-      "dayOfBirth": null,
-      "id": 3
-    },
-    {
-      "name": "a",
-      "username": "aasd",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Male",
-      "dayOfBirth": "2022-06-30T17:00:00.000Z",
-      "id": 4
-    },
-    {
-      "name": "aaa",
-      "username": "abccc",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Female",
-      "dayOfBirth": null,
-      "id": 5
-    },
-    {
-      "dayOfBirth": "Invalid Date",
-      "gender": "Female",
-      "address": "123123",
-      "confirm_password": "aaaaaa",
-      "password": "aaaaaa",
-      "username": "aaa",
-      "name": "aaa",
-      "id": 6
-    },
-    {
-      "dayOfBirth": "Wed Jul 06 2022 13:42:51 GMT+0700 (Indochina Time)",
-      "gender": "Female",
-      "address": "123123",
-      "confirm_password": "aaaaaa",
-      "password": "aaaaaa",
-      "username": "aaaaaaaaa",
-      "name": "a",
-      "id": 7
-    },
-    {
-      "dayOfBirth": "1657262888383",
-      "gender": "Female",
-      "address": "123123",
-      "confirm_password": "aaaaaa",
-      "password": "aaaaaa",
-      "username": "xxxxx",
-      "name": "xxxx",
-      "id": 8
-    },
-    {
-      "dayOfBirth": "Sun Jul 03 2022 13:52:09 GMT+0700 (Indochina Time)",
-      "gender": "Male",
-      "address": "123123",
-      "confirm_password": "aaaaaa",
-      "password": "aaaaaa",
-      "username": "aaaaaaaaaaa",
-      "name": "a",
-      "id": 9
-    },
-    {
-      "name": "ccccc",
-      "username": "cccccc",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Female",
-      "dayOfBirth": "2022-7-8 14:8:52",
-      "id": 10
-    },
-    {
-      "name": "cccccdd",
-      "username": "cccddd",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Female",
-      "dayOfBirth": "2022-7-8 14:10:39",
-      "id": 11
-    },
-    {
-      "name": "a",
-      "username": "aaaaa",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Male",
-      "dayOfBirth": "2022-7-8 14:10:57",
-      "id": 12
-    },
-    {
-      "name": "dadada",
-      "username": "daadad",
-      "password": "aaaaaa",
-      "confirm_password": "aaaaaa",
-      "address": "123123",
-      "gender": "Female",
-      "dayOfBirth": "2022-7-8 14:15:38",
-      "id": 13
-    }
-  ],
-  "Products": [
-    {
-      "id": 8,
-      "title": "ssss",
-      "status": "Processing",
-      "description": "ssss",
-      "start_date": "2022-7-7 17:27:4",
-      "end_date": "2022-07-12T17:00:00.000Z"
-    },
-    {
-      "id": 13,
-      "title": "adadada",
-      "status": "Processing",
-      "description": "adadadada",
-      "start_date": "2022-7-7 17:30:36",
-      "end_date": "2022-07-06T17:00:00.000Z"
-    },
-    {
-      "title": "a",
-      "status": "Processing",
-      "description": "a",
-      "start_date": "2022-7-7 17:32:47",
-      "end_date": "2022-07-07T10:32:48.772Z",
-      "id": 14
-    },
-    {
-      "title": "a",
-      "status": "Done",
-      "description": "a",
-      "start_date": "2022-7-7 17:32:47",
-      "end_date": "2022-07-07T10:32:48.772Z",
-      "id": 15
-    },
-    {
-      "id": 16,
-      "title": "aasdads",
-      "status": "Processing",
-      "description": "aaaa",
-      "start_date": "2022-7-8 9:28:26",
-      "end_date": "2022-07-08T02:36:47.434Z"
-    },
-    {
-      "title": "a",
-      "status": "Done",
-      "description": "aaaa",
-      "start_date": "2022-7-8 9:40:48",
-      "end_date": "2022-07-08T02:40:49.132Z",
-      "id": 17
-    },
-    {
-      "title": "a",
-      "status": "Processing",
-      "description": "a",
-      "start_date": "2022-7-8 11:54:0",
-      "end_date": "2022-07-08T04:54:01.224Z",
-      "id": 18
-    },
-    {
-      "end_date": "2022-7-8 14:4:20",
-      "start_date": "2022-7-8 14:2:32",
-      "description": "ssss",
-      "status": "Done",
-      "title": "ssss",
-      "id": 20
-    },
-    {
-      "title": "cccc",
-      "status": "Done",
-      "description": "cccc",
-      "start_date": "2022-7-8 14:4:20",
-      "end_date": "2022-7-8 14:4:20",
-      "id": 21
-    },
-    {
-      "title": "dddd",
-      "status": "Done",
-      "description": "dddd",
-      "start_date": "2022-7-8 14:8:3",
-      "end_date": "2022-7-8 14:8:3",
-      "id": 22
-    },
-    {
-      "title": "aaaa",
-      "status": "Processing",
-      "description": "aaaa",
-      "start_date": "2022-7-8 14:16:55",
-      "end_date": "2022-7-8 14:16:55",
-      "id": 23
-    },
-    {
-      "title": "aaaa",
-      "status": "Done",
-      "description": "aaaa",
-      "start_date": "2022-7-8 14:16:55",
-      "end_date": "2022-7-8 14:16:55",
-      "id": 24
-    },
-    {
-      "title": "aaaa111",
-      "status": "Done",
-      "description": "aaaa111",
-      "start_date": "2022-7-8 14:16:55",
-      "end_date": "2022-7-8 14:16:55",
-      "id": 25
-    }
-  ]
+    "Users": [
+        {
+            "name": "crmreact",
+            "username": "csmanager.test",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": null,
+            "id": 1
+        },
+        {
+            "name": "crmreact",
+            "username": "abc",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Male",
+            "dayOfBirth": null,
+            "id": 2
+        },
+        {
+            "name": "a",
+            "username": "a",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": null,
+            "id": 3
+        },
+        {
+            "name": "a",
+            "username": "aasd",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Male",
+            "dayOfBirth": "2022-06-30T17:00:00.000Z",
+            "id": 4
+        },
+        {
+            "name": "aaa",
+            "username": "abccc",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": null,
+            "id": 5
+        },
+        {
+            "dayOfBirth": "Invalid Date",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aaa",
+            "name": "aaa",
+            "id": 6
+        },
+        {
+            "dayOfBirth": "Wed Jul 06 2022 13:42:51 GMT+0700 (Indochina Time)",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aaaaaaaaa",
+            "name": "a",
+            "id": 7
+        },
+        {
+            "dayOfBirth": "1657262888383",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "xxxxx",
+            "name": "xxxx",
+            "id": 8
+        },
+        {
+            "dayOfBirth": "Sun Jul 03 2022 13:52:09 GMT+0700 (Indochina Time)",
+            "gender": "Male",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aaaaaaaaaaa",
+            "name": "a",
+            "id": 9
+        },
+        {
+            "name": "ccccc",
+            "username": "cccccc",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 14:8:52",
+            "id": 10
+        },
+        {
+            "name": "cccccdd",
+            "username": "cccddd",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 14:10:39",
+            "id": 11
+        },
+        {
+            "name": "a",
+            "username": "aaaaa",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Male",
+            "dayOfBirth": "2022-7-8 14:10:57",
+            "id": 12
+        },
+        {
+            "name": "dadada",
+            "username": "daadad",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 14:15:38",
+            "id": 13
+        },
+        {
+            "name": "zzzz",
+            "username": "zzzzz",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123\naaaa",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 15:7:57",
+            "id": 14
+        },
+        {
+            "name": "rrrr",
+            "username": "rrrr",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 15:21:16",
+            "id": 15
+        },
+        {
+            "name": "a",
+            "username": "cvcvcvc",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123\n3123123\n123123",
+            "gender": "Male",
+            "dayOfBirth": "2022-7-8 16:0:31",
+            "id": 16
+        },
+        {
+            "name": "cccccdd",
+            "username": "abcaaaa",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 16:33:7",
+            "id": 17
+        },
+        {
+            "dayOfBirth": "Fri Jul 08 2022 16:30:00 GMT+0700 (Indochina Time)",
+            "gender": "Male",
+            "address": "123123\naaaa",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aaaaazzzz",
+            "name": "a",
+            "id": 18
+        },
+        {
+            "dayOfBirth": "Invalid Date",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aacccc",
+            "name": "aa",
+            "id": 19
+        },
+        {
+            "name": "a",
+            "username": "azzzzz",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-07-08T09:37:14.954Z",
+            "id": 20
+        },
+        {
+            "name": "a",
+            "username": "123133333",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-07-08T09:37:41.804Z",
+            "id": 21
+        },
+        {
+            "dayOfBirth": "Thu Jul 07 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "avvvv",
+            "name": "a",
+            "id": 22
+        },
+        {
+            "name": "aaaa",
+            "username": "bbbb",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "2022-7-8 16:55:1",
+            "id": 23
+        },
+        {
+            "name": "aadadads",
+            "username": "adsadsadsad",
+            "password": "aaaaaa",
+            "confirm_password": "aaaaaa",
+            "address": "123123",
+            "gender": "Female",
+            "dayOfBirth": "July 3, 2022",
+            "id": 24
+        },
+        {
+            "dayOfBirth": "2022-07-04T17:00:00.000Z",
+            "gender": "Male",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "adddd",
+            "name": "addddd",
+            "id": 25
+        },
+        {
+            "dayOfBirth": "Sat Jul 02 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "gender": "Female",
+            "address": "123123dadd\ndadadas\nadasds",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "adadada",
+            "name": "asdsadsad",
+            "id": 26
+        },
+        {
+            "dayOfBirth": "Tue Jul 05 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aaa111",
+            "name": "aaaa",
+            "id": 27
+        },
+        {
+            "dayOfBirth": "Mon Jul 11 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "aaazz223",
+            "name": "a",
+            "id": 28
+        },
+        {
+            "dayOfBirth": "Thu Jul 07 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "gender": "Female",
+            "address": "123123",
+            "confirm_password": "aaaaaa",
+            "password": "aaaaaa",
+            "username": "rrrv",
+            "name": "a",
+            "id": 29
+        }
+    ],
+    "Products": [
+        {
+            "end_date": "Sun Jul 31 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:21:48",
+            "description": "aaaaaccc",
+            "status": "Done",
+            "title": "aaaaaccc",
+            "id": 48,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 0,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Tue Jul 26 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:27:16",
+            "description": "Name",
+            "status": "Done",
+            "title": "Name Name",
+            "parent_id": ":rv:",
+            "id": 49,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 11,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Tue Jul 26 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:27:16",
+            "description": "aaac",
+            "status": "Done",
+            "title": "aaavvv",
+            "parent_id": ":rv:",
+            "id": 50,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 13,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Thu Jul 28 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:27:16",
+            "description": "aaaxxzzz",
+            "status": "Processing",
+            "title": "aaaxxxxzzz",
+            "parent_id": ":rv:",
+            "id": 51,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 15,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Wed Jul 27 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:27:16",
+            "description": "aaaavvv",
+            "status": "Done",
+            "title": "aaaavvvv",
+            "parent_id": ":rv:",
+            "id": 52,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 17,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 18
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Mon Jul 25 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:27:16",
+            "description": "aavvvbbb",
+            "status": "Done",
+            "title": "aaavbbbnn",
+            "parent_id": ":rv:",
+            "id": 53,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 19,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Sun Jul 24 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:27:16",
+            "description": "aaaabbnnn",
+            "status": "Processing",
+            "title": "aaaaabbnnn",
+            "parent_id": ":rv:",
+            "id": 54,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 21,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 22
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Sat Jul 30 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:28:47",
+            "description": "aaaarrr",
+            "status": "Done",
+            "title": "aaaaarrrr",
+            "parent_id": ":r1n:",
+            "id": 55,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 23,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Fri Jul 22 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 10:30:15",
+            "description": "aaabbb",
+            "status": "Done",
+            "title": "aaaabbb",
+            "parent_id": ":r4j:",
+            "id": 56,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 25,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 26
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Thu Jul 14 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 13:37:39",
+            "description": "aaaa",
+            "status": "Done",
+            "title": "aaaa",
+            "parent_id": ":r5r:",
+            "id": 57,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": "9",
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 27
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Thu Jul 14 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 16:44:31",
+            "description": "aaa",
+            "status": "Processing",
+            "title": "aaa",
+            "parent_id": ":r1h:",
+            "id": 58,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 28,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 29
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "end_date": "Thu Jul 28 2022 00:00:00 GMT+0700 (Indochina Time)",
+            "start_date": "2022-7-13 16:44:31",
+            "description": "aaavvv",
+            "status": "Processing",
+            "title": "aaaavvv",
+            "parent_id": ":r1h:",
+            "id": 59,
+            "items": [
+                {
+                    "title": "Application",
+                    "id": 30,
+                    "items": [
+                        {
+                            "title": "Application",
+                            "id": 31,
+                            "items": [
+                                {
+                                    "title": "Application",
+                                    "id": 32,
+                                    "items": [
+                                        {
+                                            "title": "Application",
+                                            "id": 33
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
